@@ -8,7 +8,7 @@ const Home = () => {
       {/* Header */}
       <header className="p-4 bg-white">
         <div className="container mx-auto flex items-center justify-between">
-          <img
+          <image
             src="/download%20(1).png" // Use <img> instead of <image> tag
             alt="Download"
             className="h-18 w-auto transform hover:rotate-180 transition duration-500 ease-in-out"
@@ -25,21 +25,21 @@ const Home = () => {
               <li>
                 <Link href="#" legacyBehavior>
                   <a className="hover:underline hover:bg-white hover:text-black">
-                    Men's
+                    Men&apos;s
                   </a>
                 </Link>
               </li>
               <li>
                 <Link href="#" legacyBehavior>
                   <a className="hover:underline hover:bg-white hover:text-black">
-                    Women's
+                    Women&apos;s
                   </a>
                 </Link>
               </li>
               <li>
                 <Link href="#" legacyBehavior>
                   <a className="hover:underline hover:bg-white hover:text-black">
-                    Kid's
+                    Kid&apos;s
                   </a>
                 </Link>
               </li>

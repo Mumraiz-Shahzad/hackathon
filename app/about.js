@@ -5,13 +5,13 @@ export default function About() {
     <div className="bg-white">
       <header className="p-4 bg-white">
         <div className="container mx-auto flex items-center justify-between">
-          <img src="/download%20(1).png" alt="Logo" className="h-18 w-auto" />
+          <image src="/download%20(1).png" alt="Logo" className="h-18 w-auto" />
           <nav className="flex bg-black text-yellow-500 font-bold p-6">
             <ul className="flex space-x-12">
               <li><Link href="/"><a>Home</a></Link></li>
-              <li><Link href="#"><a>Men's</a></Link></li>
-              <li><Link href="#"><a>Women's</a></Link></li>
-              <li><Link href="#"><a>Kid's</a></Link></li>
+              <li><Link href="#"><a>Men&apos;s</a></Link></li>
+              <li><Link href="#"><a>Women&apos;s</a></Link></li>
+              <li><Link href="#"><a>Kid&apos;s</a></Link></li>
               <li><Link href="/about"><a>About</a></Link></li>
               <li><Link href="/contact"><a>Contact</a></Link></li>
             </ul>
